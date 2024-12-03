@@ -1,0 +1,82 @@
+.navigation-wrapper {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 0px 30px;
+}
+
+.navigation-wrapper > .codepen-img img {
+    width: 220px;
+    height: 40%;
+    margin-right: 40px;
+    padding-bottom: 15px;
+}
+
+.navigation-wrapper> .left-column {
+    height: 100px;
+    width: 35%;
+    padding-bottom: 30px;
+    font-family: "Ubuntu condensed", sans-serif;
+}
+
+.navigation-wrapper > .left-column > .explore {
+    height: 40%;
+    width: 70px;
+    margin-bottom: -10px;
+    margin-left: 40px;
+    color: rgb(199, 189, 54);
+    font-family: "Ubuntu condensed", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+} 
+
+.navigation-wrapper > .left-column > .links {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    font-family: "Ubuntu condensed", sans-serif;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .left-column > .links > .spark {
+    margin-left: 30px;  
+    color: grey;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.navigation-wrapper > .left-column > .links > .spark i {
+    font-size: 0.8em;
+    padding: 0px 0px 10px 20px;
+}
+
+.navigation-wrapper > .right-column {
+    height: 40px;
+    width: 30%;
+    margin-left: 500px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 1.3em;
+    font-family: "Ubuntu condensed", sans-serif; 
+}
+
+.navigation-wrapper > .right-column > .create i {
+    margin-left: 10px;
+    color: mediumspringgreen;
+}
+
+.navigation-wrapper > .right-column > .icon i {
+    font-size: 1.6em;
+    color: grey;
+    border-radius: 3px;
+}
+
+.navigation-wrapper > .right-column a {
+    color: white;
+    background-color: #4a4848;
+    padding: 15px;
+    border-radius: 3px;
+}
